@@ -8,7 +8,7 @@ int main()
     gets(ch1);
     printf("请输入栏数:\n");
     scanf("%d",&M);
-    if (M>=0)
+    if (M>0)
     {
         for (int i=0;ch1[i]!=0;i++)
         X++;
@@ -32,7 +32,7 @@ int main()
         printf("%c",ch2[i]);
         printf("}");
     }
-    else
+    else if (M<0)
     {
         for (int i=0;ch1[i]!=0;i++)
         X++;
@@ -57,5 +57,7 @@ int main()
         printf("%c",ch2[i]);
         printf("}");
     }
+    else
+    printf("有必要吗?\n%s",ch1);
     return 0;
 }
