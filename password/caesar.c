@@ -4,9 +4,9 @@ int main()
 {
     int num,NUM,X=0;
     char ch1[N],ch2[N];
-    printf("ÇëÊäÈë:\n");
+    printf("è¯·è¾“å…¥:\n");
     scanf("%s",ch1);
-    printf("Î»Êı:\n");
+    printf("ä½æ•°:\n");
     scanf("%d",&num);
     NUM=num%26;
     for (int i=0;ch1[i]!='\0';i++)
@@ -29,10 +29,8 @@ int main()
         ch2[i]=ch1[i];
         X++;
     }
-    printf("¼ÓÃÜ:\n");
+    printf("åŠ å¯†:\n");
     for (int i=0;i<X+1;i++)
     printf("%c",ch2[i]);
-    getchar();
-    getchar();
     return 0;
 }
