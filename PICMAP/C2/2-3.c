@@ -2,7 +2,7 @@
 int main()
 {
     float x,y,z;
-    printf("请输入三个数：\n");
+    printf("璇疯緭鍏ヤ笁涓暟锛歕n");
     scanf("%f,%f,%f",&x,&y,&z);
     if (x<y)
     {

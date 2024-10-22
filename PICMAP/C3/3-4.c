@@ -2,7 +2,7 @@
 int main()
 {
     float a,b,sum,s[10];
-    printf("ÇëÊäÈë10¸ö³É¼¨:\n");
+    printf("è¯·è¾“å…¥10ä¸ªæˆç»©:\n");
     for (int i=0;i<10;i++)
     {
         scanf("%f",&s[i]);
@@ -18,6 +18,6 @@ int main()
         sum+=s[i];
     
     }
-    printf("Æ½¾ù·Ö:%f",(sum-a-b)/8);
+    printf("å¹³å‡åˆ†:%f",(sum-a-b)/8);
     return 0;
 }
