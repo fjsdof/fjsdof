@@ -8,7 +8,10 @@ int main()
     scanf("%s",ch1);
     printf("位数:\n");
     scanf("%d",&num);
+    if (num>=0)
     NUM=num%26;
+    else
+    NUM=-((-num)%26)+26;
     for (int i=0;ch1[i]!='\0';i++)
     {
         if (ch1[i]>='A'&&ch1[i]<='Z')
@@ -29,7 +32,10 @@ int main()
         ch2[i]=ch1[i];
         X++;
     }
+    if (num>=0)
     printf("加密:\n");
+    else
+    printf("解密:\n");
     for (int i=0;i<X+1;i++)
     printf("%c",ch2[i]);
     return 0;
