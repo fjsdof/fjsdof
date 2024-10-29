@@ -2,7 +2,7 @@
 int main()
 {
     float p,r;
-    printf("请输入平均每场得分和平均每场板球数:\n");
+    printf("请输入平均每场得分和平均每场篮板球数:\n");
     scanf("%f%f",&p,&r);
     while (p<0||r<0)
     {
