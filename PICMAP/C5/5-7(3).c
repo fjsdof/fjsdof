@@ -19,7 +19,7 @@ int main()
         d++;
         else if (N[i]<80)
         c++;
-        else if( N[i]<90)
+        else if (N[i]<90)
         b++;
         else if (N[i]<=100)
         a++;
