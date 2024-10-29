@@ -16,7 +16,7 @@ int main()
     else if (x>=60&&y>=60)
     printf("合格\n");
     else if (x>=60&&y<60||x<60&y>=60)
-    printf ("较差\n");
+    printf("较差\n");
     else
     printf("很差\n");
     return 0;
